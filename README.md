@@ -21,16 +21,6 @@ Basic usage:
 `icon0` will be displayed in the top right corner of the input/textarea.  It should represent the "microphone off" state.  When clicked, it will toggle the microphone state.
 `icon1` is optional, but if given the icon will switch to this icon to represent "microphone on" state.
 
-####`invalidAction`
-
-`invalidAction` Dictates the action to perform if an item not already in the list of selectable items is entered. String value. Default = `remove`.  
-Available values:
-
-| invalidAction | Action Description                                        |
-| ------------- | --------------------------------------------------------- |
-| `add`         | New value is added to the bottom of the list.             |
-| `remove`      | Value is removed (cleared out) and an error is displayed. |
-
 ####`classPrefix`
 
 `classPrefix` The prefix used to apply to the classes of all elements involved. String value. Default = `ui`
