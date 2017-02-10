@@ -1,4 +1,4 @@
-# jquery.jqSpeechtotext
+# jquery.jqSpeechToText
 A simple jQuery UI plugin that attaches speech-to-text capabilities to form fields.
 
 ##Features
