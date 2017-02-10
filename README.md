@@ -19,6 +19,7 @@ Basic usage:
 ####`icon0`, `icon1`
 
 `icon0` will be displayed in the top right corner of the input/textarea.  It should represent the "microphone off" state.  When clicked, it will toggle the microphone state.
+
 `icon1` is optional, but if given the icon will switch to this icon to represent "microphone on" state.
 
 ####`classPrefix`
@@ -35,11 +36,11 @@ The classes involved include:
 
 ####`capitalize`
 
-`capitalize` will force the first character of the first word spoken of each sentence to be capitalized. Boolean value.  Default = true
+`capitalize` will force the first character of the first word spoken of each sentence to be capitalized. Boolean value.  Default = `true`
 
 ####`addPeriod`
 
-`addPeriod` will add a period to the end of spoken sentences.  Boolean value. Default = true
+`addPeriod` will add a period to the end of spoken sentences.  Boolean value. Default = `true`
 	
 ###Methods
 
@@ -65,7 +66,7 @@ Get or Set options on-the-fly.
 
 Code example:
 
-	$("textarea").jqSpeechToText("option", "icon1");			                  // getter
+	$("textarea").jqSpeechToText("option", "icon1");			                // getter
 	$("textarea").jqSpeechToText("option", "icon1", "images/mic-on.png");		// setter
 
 ###Events
